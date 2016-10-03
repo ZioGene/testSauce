@@ -7,11 +7,11 @@ exports.config = {
     sauceUser: username,
     sauceKey: accessKey,
 
-    suites: {
+     specs: [
         //TODO: add here other suites
-        exercise1 : './exercise1/calculator.solution.js',
-        exercise2 : './exercise2/todo.solution.js'
-    },
+        './exercise1/calculator.solution.js',
+        './exercise2/todo.solution.js'
+    ],
 
     onPrepare: function() {
         //TODO: add prepare statements
