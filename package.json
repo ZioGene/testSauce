@@ -12,5 +12,6 @@
     "wd-bridge": "0.0.2"
   },
   "scripts": {
+    "test" : "protractor ./e2e/conf.solution1.js"
   }
 }
