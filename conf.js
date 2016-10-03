@@ -26,16 +26,6 @@ exports.config = {
         exercise2: {
             url: 'http://pfy.cloud.reply.eu/protractor/ex2/'
         }
-    },
-
-    capabilities: {
-        browserName: 'chrome',
-
-        chromeOptions: {
-            args: [
-                '--disable-extensions'
-            ]
-        }
     }
 
 };
