@@ -7,9 +7,10 @@
   "repository": "",
   "license": "MIT",
   "devDependencies": {
+    "protractor": "^3.2.2",
+    "wd": "^0.4.0",
+    "wd-bridge": "0.0.2"
   },
   "scripts": {
-    "e2e": "protractor ./e2e/conf.js",
-    "e2e_result": "protractor ./e2e/conf.solution1.js"
   }
 }
