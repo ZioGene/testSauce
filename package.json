@@ -7,6 +7,7 @@
   "repository": "",
   "license": "MIT",
   "devDependencies": {
+    "protractor" : "latest"
   },
   "scripts": {
     "test" : "protractor ./e2e/conf.solution1.js"
