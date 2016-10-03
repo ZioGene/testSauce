@@ -13,11 +13,6 @@ exports.config = {
         './exercise2/todo.solution.js'
     ],
 
-    onPrepare: function() {
-        //TODO: add prepare statements
-        browser.driver.manage().window().setSize(800, 800);
-    },
-
     params: {
         //TODO: add global params here
         exercise1: {
