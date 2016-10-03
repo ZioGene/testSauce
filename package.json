@@ -1,0 +1,15 @@
+{
+  "name": "protractorExcercise",
+  "title": "End to end test in AngularJS applications",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "repository": "",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "scripts": {
+    "e2e": "protractor ./e2e/conf.js",
+    "e2e_result": "protractor ./e2e/conf.solution1.js"
+  }
+}
