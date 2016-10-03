@@ -1,10 +1,11 @@
 // conf.js
-
+var username = "Cyborg",
+    accessKey = "83006b9b-f79e-4f60-8866-0c9ed66eecac";
 exports.config = {
     framework: 'jasmine',
 
-    seleniumServerJar: process.env[(process.platform == 'win32') ? 'APPDATA' : 'NODE_PATH'] + '/npm/node_modules/protractor/node_modules/webdriver-manager/selenium/selenium-server-standalone-2.53.1.jar',
-    seleniumPort: null,
+    sauceUser: username,
+    sauceKey: accessKey,
 
     suites: {
         //TODO: add here other suites
